@@ -28,4 +28,5 @@ Pthreads - implements the same parallelization modeled with openMP
 Notes
 =====
   1. This is a homework assignment for Parallel and Distributed Systems in Aristotle University of Thessaloniki.
-  2. To compile the Cilk code, you need [GCC Cilkplus](https://www.cilkplus.org/build-gcc-cilkplus) or icc.
+  2. To compile the Cilk code, you need [GCC Cilkplus](https://www.cilkplus.org/build-gcc-cilkplus) or icc. The Makefile assumes GCC Cilkplus is in ~/cilkplus-install.
+  3. For the rest, normal gcc is used.
